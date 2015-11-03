@@ -1,4 +1,9 @@
 #lang racket
+(provide
+ sum-digits
+ sum-divisors
+ is-prime?)
+
 (define (fact n)
  (define (fact-iter i result)
   ;(if (< n 2) 1
